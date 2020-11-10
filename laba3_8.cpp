@@ -1,23 +1,12 @@
-#include<stdlib.h>
-#include<stdio.h>
-#include<locale.h>
+#include <iostream> 
+#include<clocale>
 int main()
 {
 	setlocale(LC_ALL, "rus");
 	int k, n, m;
-
-	printf("Введите число n\n");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ n\n");
 	scanf_s("%d", &n);
-
-	//	printf("Введите число k\n");
-	//	scanf_s("%d", &k);
-
-	//	printf("Введите число m\n");
-	//	scanf_s("%d", &m);
-
-		//do
-		//{
-
+	
 	do
 	{
 		if (n % 2 == 0)
@@ -29,9 +18,7 @@ int main()
 			n = n * 3 + 1;
 		}
 	} while (n > 1);
-	//} while (1 < k < n);
-
-
+	
 	printf("n=%d\n", n);
 
 	return 0;
