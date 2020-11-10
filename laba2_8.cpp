@@ -5,13 +5,13 @@
 int main()
 {
 	int a, b, h, x;
-	double y,y2,y1;
+	double y, y2, y1;
 	setlocale(0, "rus");
-	printf("Введите число а\n");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ Р°\n");
 	scanf_s("%d", &a);
-	printf("Введите число h\n");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ h\n");
 	scanf_s("%d", &h);
-	printf("Введите число b\n");
+	printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ b\n");
 	scanf_s("%d", &b);
 	x = a * h * b;
 	y1 = pow(x, 2) + sin(x) + 3 * sqrt(cos(x) * 2 * x);
