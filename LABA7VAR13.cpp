@@ -5,8 +5,10 @@ void prikol(char* str)
 {
     char* src = str, * dst = str;
     int space = 1;
-    while (*src) {
-        if (space && *src == ' ') {
+    while (*src) 
+    {
+        if (space && *src == ' ') 
+        {
             ++src;
             continue;
         }
